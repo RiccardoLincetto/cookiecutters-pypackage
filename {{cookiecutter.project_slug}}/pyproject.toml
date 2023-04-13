@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "{{cookiecutter.short_description}}"
 authors = ["Riccardo Lincetto <37301469+RiccardoLincetto@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "{{cookiecutter.package_name}}", from = "src"}]
+packages = [{include = "{{cookiecutter.module_name}}", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.min_python_version}}"
